@@ -28,6 +28,7 @@
     ],
     "rules": {
       "prettier/prettier": ["error", { "endOfLine": "crlf" }],
+      "react/no-unstable-nested-components": "off",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "@typescript-eslint/no-var-requires": "warn",
